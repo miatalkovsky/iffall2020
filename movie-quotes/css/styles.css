@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+footer {
+    font-size: small;
+}
