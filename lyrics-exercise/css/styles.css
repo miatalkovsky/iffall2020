@@ -1,0 +1,54 @@
+p {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+h1 {
+    font-family: proxima-nova, sans-serif;
+}
+
+a {
+    font-family: proxima-nova, sans-serif;
+    font-weight: lighter
+}
+
+.first {
+    margin-top: 30px;
+}
+
+.long {
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.sunny {
+    font-style: normal;
+    font-weight: bold;
+    color: orange;
+}
+
+.chorus {
+    margin-top: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.chorus-margin {
+    margin-left: 25px;
+}
+
+.holiday {
+    color: red;
+    font-weight: bold;
+}
+
+.big {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    margin-left: 20px;
+}
