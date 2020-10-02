@@ -3,7 +3,7 @@ html {
     font-weight: 200;
     font-style: normal;
     text-align: center;
-    font-size: 10pt;
+    font-size: 12pt;
     background-color: rgb(220, 246, 255);
 }
 
@@ -19,7 +19,7 @@ html {
 
 .light {
     font-weight: 100;
-    font-size: 11pt;
+    font-size: 13pt;
 }
 
 .mad {
@@ -35,7 +35,7 @@ html {
 .chorus {
     font-weight: 400;
     letter-spacing: .5pt;
-    line-height: 16pt;
+    line-height: 17pt;
 }
 
 .one {
