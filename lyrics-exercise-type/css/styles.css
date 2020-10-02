@@ -1,0 +1,68 @@
+html {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: 10pt;
+    background-color: rgb(220, 246, 255);
+}
+
+.wavy {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.and {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.light {
+    font-weight: 100;
+    font-size: 11pt;
+}
+
+.mad {
+    color: red;
+    font-weight: 800;
+}
+
+.shameless {
+    color: rgb(0, 221, 0);
+    font-weight: 800;
+}
+
+.chorus {
+    font-weight: 400;
+    letter-spacing: .5pt;
+    line-height: 16pt;
+}
+
+.one {
+    font-size: 9pt;
+    line-height: 14pt;
+}
+
+.two {
+    font-size: 8pt;
+    line-height: 12pt;
+}
+
+.three {
+    font-size: 7pt;
+    line-height: 9.5pt;
+}
+
+.four {
+    font-size: 6pt;
+    line-height: 7pt;
+}
+
+.five {
+    font-size: 5pt;
+    line-height: 4pt;
+}
+
+.first {
+    text-align: right;
+}
