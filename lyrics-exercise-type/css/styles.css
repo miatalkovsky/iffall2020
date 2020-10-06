@@ -19,7 +19,7 @@ html {
 
 .light {
     font-weight: 100;
-    font-size: 13pt;
+    font-size: 18pt;
 }
 
 .mad {
@@ -36,6 +36,8 @@ html {
     font-weight: 400;
     letter-spacing: .5pt;
     line-height: 17pt;
+    margin-left: 10em;
+    text-align: left;
 }
 
 .one {
