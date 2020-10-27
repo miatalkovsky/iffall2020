@@ -8,7 +8,7 @@ header {
     padding-top: 145px;
     line-height: 13pt;
     height: 330px;
-    background-image: url(file:///Users/miatalkovsky/Desktop/iffall2020/publish/multi-panel-page/images/oak-tree.jpeg);
+    background-image: url("../images/oak-tree.jpg");
     background-position-y: -440px;
 }
 
