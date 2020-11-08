@@ -76,7 +76,7 @@ div {
 }
 
 .intro ul {
-    background-color: rgb(221, 247, 255);
+    background-color:rgba(161, 61, 45, 0.3);
     padding-top: 20px;
     padding-bottom: 20px;
     max-width: 680px;
