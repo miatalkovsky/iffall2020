@@ -5,6 +5,7 @@ body {
     font-family: mr-eaves-sans, sans-serif;
     font-size: 16pt;
     max-width: 90%;
+    max-width: 850px;
     background-color: rgb(255, 252, 235);
 }
 
