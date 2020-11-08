@@ -1,0 +1,123 @@
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: mr-eaves-sans, sans-serif;
+    font-size: 16pt;
+    max-width: 90%;
+    background-color: rgb(255, 252, 235);
+}
+
+img {
+    height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    margin-bottom: 21px;
+    font-size: 40pt;
+    color: rgb(161, 61, 45);
+}
+
+h2 {
+    margin: 0;
+    color: rgb(161, 61, 45);
+    font-size: 28pt;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ol {
+    margin-top: 10px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.source {
+    font-size: 8pt;
+    margin: 0;
+    font-weight: lighter;
+}
+
+div {
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 640px) {
+    .side-by-side {
+        display: flex;
+        margin: 10px;
+    }
+}
+
+.instructions li {
+    padding-bottom: 5px;
+}
+
+.description {
+    max-width: 710px;
+    margin: auto;
+    font-size: 18pt;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.time-servings {
+    padding-bottom: 10px;
+}
+
+.intro ul {
+    background-color: rgb(221, 247, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro li:first-of-type {
+    text-align: left;
+    width: 50%;
+}
+
+.intro li:last-of-type {
+    text-align: right;
+    width: 50%;
+    padding-right: 40px;
+}
+
+@media (min-width: 640px) {
+    .intro ul {
+        display: flex;
+        text-align: center;
+        margin-right: none;
+    }
+}
+
+@media (min-width: 640px) {
+    .intro li {
+        text-align: left;
+        width: 100%;
+        margin: none;
+        padding: none;
+    }
+}
+
+footer {
+    font-size: 12pt;
+}
+
+.Talkovsky {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
