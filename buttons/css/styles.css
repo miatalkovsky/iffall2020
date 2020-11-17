@@ -1,0 +1,611 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#coke {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 40px 0 40px;
+    background-color: white;
+    color: red;
+    font-size: 30px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#coke:hover {
+    background-color: red;
+    color: white;
+    box-shadow: inset 4px 4px 10px 0px rgba(50, 50, 50, 0.93);
+}
+
+a#apple {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 0px 0 0px;
+    background-color: lightgray;
+    color:white;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transform: scale(3);
+    text-shadow: 3px 1px 2px rgba(6, 69, 255, 0.46);
+}
+
+a#apple span:hover {
+    display: none;
+}
+
+a#ibm {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 18px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    transition: all .2s;
+    text-decoration-style: dashed;
+    font-weight: bold;
+}
+
+a#ibm:hover {
+    color: rgb(126, 126, 126);
+}
+
+a#nerf {
+    font-family: 'Cantarell', sans-serif;
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 40px 0 40px;
+    background-color: white;
+    color: rgb(0, 72, 167);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transform: rotate(-20deg);
+}
+
+a#nerf:hover {
+    transform: rotate(25deg);
+}
+
+a#harley {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: rgb(255, 145, 0);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: medium;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+a#harley:hover {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: black;
+    color: rgb(255, 145, 0);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: medium;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+a#michaelkors {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a#michaelkors .fa-shopping-bag {
+    transform: scale(3);
+    color: black;
+    position:relative; bottom:20px;
+}
+
+a#michaelkors .fa-shopping-bag:hover {
+    transform: scale(7);
+}
+a#ideo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Goldman', cursive;
+    font-size: 30px;
+    font-weight: medium;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+a#ideo:hover {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: rgb(255, 113, 78);
+    color: white;
+    font-family: 'Goldman', cursive;
+    font-size: 30px;
+    font-weight: medium;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+a#sardella {
+    display: block;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 90px;
+    color: rgb(73, 3, 138);
+}
+
+a#sardella span:nth-of-type(2n+2):hover {
+    color: rgb(152,251,200);
+}
+
+a#craigslist {
+    display: block;
+    color: rgb(88, 1, 105);
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    font-family: serif;
+    font-size: 20px;
+    text-decoration: none;
+    transform: scale(2);
+}
+
+
+a#craigslist .fa-hand-peace {
+    color: white;
+}
+
+a#craigslist .fa-hand-peace:hover {
+    color: rgb(88, 1, 105);
+}
+
+a#lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+    position: relative;
+}
+
+a#lyft span {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#lyft span:hover {
+    color: black;
+}
+
+a#lyft .fa-car {
+    transform: scale(5);
+    color: rgb(255, 38, 165);
+}
+
+a#dimecitycycles {
+    display: inline-block;
+    height: 90px;
+    width: 150px;
+    box-sizing: border-box;
+    background-color: darkred;
+    border: 2px solid black;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 18px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+a#dimecitycycles:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: darkred;
+    text-shadow: none;
+}
+
+a#cartoon-network img {
+    margin-top: 70px;
+    max-width: 200px;
+}
+
+a#cartoon-network span {
+    color: white;
+}
+
+a#cartoon-network span:hover {
+    font-family: 'Arial', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+}
+
+a#bissingers {
+    display: inline-block;
+    font-family: 'Fondamento', cursive;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(207, 159, 0);
+    margin-top: 100px;
+}
+
+a#bissingers:hover {
+    text-shadow: 2px 1px 3px rgba(191, 154, 0, 1);
+}
+
+a#the-tonight-show {
+    display: inline-block;
+    margin-top: 80px;
+    color: black;
+    text-decoration: none;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+a#the-tonight-show span {
+    color:gray;
+}
+
+a#the-tonight-show i {
+    transform: scale(7) rotate(-15deg);
+}
+
+a#the-tonight-show span:hover {
+    margin-top: 100px;
+    color: black;
+}
+
+a#nike {
+    display: inline-block;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 60px;
+    line-height: 10px;
+}
+a#nike img {
+    max-width: 250px;
+}
+
+a#nike span {
+    margin-left: 80px;
+}
+
+a#nike:hover {
+    text-decoration: line-through;
+}
+
+a#botanical-garden {
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif; 
+    margin-top: 70px;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+a#botanical-garden i {
+    color: green;
+    transform: scale(8);
+}
+
+a#botanical-garden span {
+    color: black;
+}
+
+a#botanical-garden span:hover {
+    color: green;
+}
+
+a#hulk-hogan {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px 30px 0 30px;
+    background-color:black;
+    color: #fff;
+}
+
+a#hulk-hogan img {
+    max-height: 200px;
+}
+
+a#hulk-hogan:hover {
+    background-color: rgb(235, 181, 5);
+}
+
+a#tesla {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    margin: auto;
+    margin-top: 100px;
+    line-height: 50px;
+}
+
+a#tesla:hover {
+    box-shadow: 0 0 10px #ec0000;
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color: red;
+}
+
+a#color-run {
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 35px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: left;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    letter-spacing: 2px;
+
+}
+
+a#color-run span:first-child:hover {
+    color: rgb(255, 116, 139);
+}
+
+a#color-run span:nth-of-type(2):hover {
+    color: yellow;
+}
+
+a#color-run span:last-child:hover {
+    color: rgb(71, 104, 255);
+}
+
+a#moo {
+    display: block;
+    margin-top: 100px;
+}
+
+a#moo img {
+    max-width: 150px;
+}
+
+a#moo:hover {
+    transform: scale(2);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 56%, rgba(0,0,0,0.45) 81%, rgba(0,0,0,0.54) 86%, rgba(0,0,0,0.65) 92%, rgba(0,0,0,0.65) 99%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 56%,rgba(0,0,0,0.45) 81%,rgba(0,0,0,0.54) 86%,rgba(0,0,0,0.65) 92%,rgba(0,0,0,0.65) 99%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 56%,rgba(0,0,0,0.45) 81%,rgba(0,0,0,0.54) 86%,rgba(0,0,0,0.65) 92%,rgba(0,0,0,0.65) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a#fitbit {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin: auto;
+    margin-top: 50px;
+
+}
+a#fitbit img {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+a#fitbit:hover {
+    color: rgb(31, 173, 184);
+    text-decoration: underline;
+}
