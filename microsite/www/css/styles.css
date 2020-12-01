@@ -13,13 +13,27 @@ header {
     color: white;
     text-decoration: none;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 30px;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.current {
+    color: tan;
+}
+
+footer {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 700;
+    background-color: rgb(51, 24, 12);
+    color: white;
+    text-decoration: none;
+    text-align: left;
 }
 
 .douglas {
-    text-align: center;
     font-size: 40px;
+    margin-bottom: 0;
 }
 
 ul {
@@ -29,13 +43,16 @@ ul {
     padding: 0;
 }
 
-.pages {
-    font-size: 16px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    max-width: 900px;
-    margin: auto;
-    padding-top: 20px;
+@media(min-width: 600px) {
+    .pages {
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        max-width: 900px;
+        margin: auto;
+        padding-top: 20px;
+    }
+
 }
 
 a {
@@ -97,8 +114,12 @@ h2 {
     padding-top: 30px;
 }
 
-.images:last-of-type {
-    padding-left: 20px;
+.images li:last-of-type {
+    padding-left: 10px;
+}
+
+.images li:first-of-type {
+    padding-right: 10px;
 }
 
 .full-width {
@@ -148,3 +169,6 @@ h2 {
     color: rgb(114, 114, 114);
 }
 
+.copy , .source-link {
+    max-width: 750px;
+}
